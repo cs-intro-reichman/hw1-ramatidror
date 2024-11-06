@@ -1,4 +1,4 @@
-public class futureValue {
+public class FVCalc {
     public static void main (String [] args) {
         int investedSum = Integer.parseInt (args [0]);
         double intrestRate = Double.parseDouble (args [1]);
