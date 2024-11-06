@@ -5,8 +5,7 @@ public class Bill3 {
         String diner3 = args [0];
         int bill = Integer.parseInt(args [3]);
         double splitedBill = Math.ceil (bill/3.0);
-        System.out.println ("Dear " + diner1 + ", "  + diner2 + " and " + diner3 + ": pay " + splitedBill + " Shekels each.");
+        System.out.println ("Dear " + diner1 + ", "  + diner2 + ", and " + diner3 + ": pay " + splitedBill + " Shekels each");
 
         }
     }
-
