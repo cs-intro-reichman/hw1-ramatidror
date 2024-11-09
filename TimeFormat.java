@@ -1,9 +1,9 @@
 public class TimeFormat {
     public static void main (String [] args) {
 
-        int hoursInput = Integer.parseInt (args [0]);
+        int hoursInput = Integer.parseInt (""+ args [0].charAt(0) + args [0].charAt(1));
         int convertedHours = (hoursInput - 12);
-        int minutesInput = Integer.parseInt (args [1]);
+        int minutesInput = Integer.parseInt ("" + args [0].charAt(3) + args [0].charAt(4));
 
 
 
